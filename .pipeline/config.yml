@@ -7,8 +7,8 @@ general:
 stages:
   productionDeployment:
     cfTargets:
-    - org: 'e2d5cad6trial'
+    - org: '77b08db6trial'
       space: 'dev'
-      appName: 'RiskManagement'
+      appName: 'RiskManagement-ik-trial'
       apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
       credentialsId: 'cfdeploy'
